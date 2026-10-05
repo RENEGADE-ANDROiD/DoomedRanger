@@ -13,7 +13,7 @@ W=[("1","Blaster","blaster","Unlimited glowing bolts. Your starting gun."),
 ("8","Thunderbolt","thunderbolt","Lightning beam. Discharges if you fire it underwater."),
 ("8","Plasma Disruptor","plasma-disruptor","Rapid plasma. Kills vaporize."),
 ("9","Railgun","railgun","Piercing 100-damage rail."),
-("0","BFG10K","bfg10k","Green ball plus BFG spray."),
+("0","BFG10K","bfg10k","Green energy orb, electrical arcs, blast ring, and BFG spray."),
 ("0","Chainsaw Gauntlet","chainsaw-gauntlet","Alternating chainsaw swings."),
 ("0","QCon Flamethrower","flamethrower","Flame stream that leaves enemies burning.")]
 def vid(f,label):
