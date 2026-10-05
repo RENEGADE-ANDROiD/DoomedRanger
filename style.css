@@ -108,3 +108,9 @@ figcaption { padding: 8px 12px; color: var(--dim); font-size: 14px; background: 
 
 .hero-art { display:flex; flex-direction:column; gap:14px; }
 .hero-art .credit img { width:100%; height:auto; }
+
+.more-layout { display:grid; grid-template-columns: minmax(0,0.9fr) minmax(0,1.2fr); gap:22px; align-items:start; }
+.more-ranger { margin:0; border:3px solid var(--brown); background:#000; box-shadow:6px 6px 0 #000; }
+.more-ranger img { width:100%; height:auto; display:block; }
+.features-right { grid-template-columns:1fr; }
+@media (max-width:900px){ .more-layout { grid-template-columns:1fr; } }
