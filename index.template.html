@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doomed Ranger: the Quake Ranger in Doom | Coming Soon</title>
+<meta name="description" content="Doomed Ranger is a UZDoom mod that brings the Ranger from the Quake series into Doom with 17 Quake Champions weapons, the Dire Orb and Quake movement. Coming soon.">
+<meta name="theme-color" content="#0d0a08">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Doomed Ranger: the Quake Ranger in Doom">
+<meta property="og:description" content="17 Quake Champions weapons, the Dire Orb and Quake movement, in Doom. Coming soon.">
+<meta property="og:image" content="img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@RenegadeAndroid">
+<meta name="twitter:title" content="Doomed Ranger: the Quake Ranger in Doom">
+<meta name="twitter:description" content="17 Quake Champions weapons, the Dire Orb and Quake movement, in Doom. Coming soon.">
+<meta name="twitter:image" content="img/og-image.jpg">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/PressStart2P.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="Doomed Ranger home"><img src="img/logo.png" alt="Doomed Ranger" width="630" height="234"></a>
+  <nav aria-label="Sections">
+    <a href="#arsenal">Arsenal</a><a href="#orb">Dire Orb</a><a href="#movement">Movement</a><a href="#release">Release</a><a href="#credits">Credits</a>
+  </nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div>
+    <h1><img src="img/titlepic.webp" alt="Doomed Ranger" width="672" height="378" class="pixelated"></h1>
+    <p class="tagline">The Ranger from the Quake series drops into Doom with 17 Quake Champions weapons, his Dire Orb, and Quake movement.</p>
+    <div class="cta"><button class="btn btn-soon" type="button" disabled aria-disabled="true">Coming Soon</button></div>
+    <p class="fineprint">UZDoom mod &middot; Coming soon on itch.io</p>
+  </div>
+  <figure class="hero-shot"><img src="img/hero-1600.webp" srcset="img/hero-800.webp 800w, img/hero-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 640px" alt="Doomed Ranger key art" width="1600" height="900"></figure>
+</section>
+
+<section class="section" id="arsenal">
+  <h2><span class="pix"></span>Arsenal</h2>
+  <p class="lead">Doom weapon spots roll from pools of Quake guns, so each run plays differently. Alt-fire on any gun gives a light zoom.</p>
+  <p class="hint">Press <kbd>J</kbd> to hold your weapon right, centered or left, as in Quake 2. Each hand position has its own animations, and shots leave from that muzzle. Every clip below shows all three.</p>
+  <div class="weapons">
+{{WEAPONS}}
+  </div>
+</section>
+
+<section class="section" id="orb">
+  <h2><span class="pix"></span>Dire Orb</h2>
+  <div class="split">
+    <div>
+      <p class="lead">Press <kbd>F</kbd> to throw a fast orb that passes through enemies, then press <kbd>F</kbd> again to teleport to it with your momentum kept. Anything standing where you land gets telefragged into gibs.</p>
+      <p class="lead">If the orb hits a wall, it holds there for the rest of its 5 seconds. If there's no room to land, it stays live so you can try again, and if you never follow it, it detonates on its own. The cooldown is 30 seconds, and enemies can drop a Quake Champions hourglass that cuts 5 seconds off it.</p>
+    </div>
+    <div>
+      <figure class="media gameplay"><video autoplay muted loop playsinline preload="none" poster="media/dire-orb-gameplay.jpg" aria-label="Dire Orb gameplay"><source src="media/dire-orb-gameplay.mp4" type="video/mp4"></video></figure>
+      <figure class="media"><video autoplay muted loop playsinline preload="none" poster="media/dire-orb.jpg" aria-label="Dire Orb held left, centered and right"><source src="media/dire-orb.mp4" type="video/mp4"></video></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="movement">
+  <h2><span class="pix"></span>Movement</h2>
+  <ul class="ticks">
+    <li><strong>Quake 2 ground physics</strong> with <strong>CPM air control</strong>: hold forward in the air to steer your speed.</li>
+    <li><strong>Ground slide</strong> from Quake Champions: crouch as you land at speed.</li>
+    <li><strong>Weapon jumps</strong>: rocket and grenade jumps, plasma wall-climbs, nail boosts. Your own splash damage is cut to 25%.</li>
+    <li><strong>Boot kick</strong> (<kbd>R</kbd>): knocks enemies back, opens doors, flips switches, and pushes you off walls.</li>
+  </ul>
+</section>
+
+<section class="section" id="more">
+  <h2><span class="pix"></span>More Quake in your Doom</h2>
+  <ul class="features">
+    <li><h3>Armor and powerups</h3><p>Green, Yellow and Red armor tiers. Megahealth drains back to 100. Quad Damage, Protection, Bandolier and Adrenaline, with expiry warnings.</p></li>
+    <li><h3>Gore</h3><p>Kills vaporize, burn or get pinned to walls, and corpses gib when you shoot them.</p></li>
+    <li><h3>Quake 2-style HUD</h3><p>A Ranger face and the orb cooldown, plus crosshairs that switch by weapon type.</p></li>
+    <li><h3>Presentation</h3><p>3D weapon and pickup models, first-person legs, custom shaders, dynamic lights, the Ranger's voice, and title music.</p></li>
+  </ul>
+  <figure class="shot"><img src="img/in-game-hud.webp" alt="In-game view with the Quake 2-style HUD" width="780" height="438" loading="lazy"></figure>
+</section>
+
+<section class="section" id="release">
+  <h2><span class="pix"></span>Release</h2>
+  <div class="card">
+    <p class="status">Coming Soon</p>
+    <p>Doomed Ranger will be released on itch.io. You'll need <a href="https://github.com/UZDoom/UZDoom" rel="noopener">UZDoom</a> (the mod targets ZScript 4.14.0) with OpenGL or Vulkan, and a Doom IWAD. Doom II is recommended so the Super Shotgun spawns.</p>
+  </div>
+</section>
+
+<section class="section" id="credits">
+  <h2><span class="pix"></span>Credits</h2>
+  <p class="lead">Created by <strong>RENEGADE ANDROiD</strong>. Third-party material belongs to its owners.</p>
+  <ul class="ticks">
+    <li><strong>id Software / Bethesda</strong>: Quake Champions weapons, hourglass, and HUD art; the Quake Live Ranger voice and effects; Quake II sounds; Quake nailgun behavior.</li>
+    <li><strong>Project Brutality 2022 team</strong>: flamethrower, plasma, and barrel smoke effects.</li>
+    <li><strong>Xerxes Lins</strong>: Warped Tentacles floors (GPL).</li>
+    <li><strong>References</strong>: R1Q2 (Quake 2 physics), Xonotic (CPM air control), Brutal Quake Arena (kick distances).</li>
+  </ul>
+  <p class="hint">You can play a public release as provided. Reusing this original work requires the modder's explicit permission, and third-party material keeps its own terms.</p>
+</section>
+</main>
+<footer class="footer">
+  <p>Doomed Ranger is an unofficial fan mod. It is not affiliated with or endorsed by id Software, Bethesda or ZeniMax.</p>
+  <p>Doom, Quake and Quake Champions are trademarks of their respective owners.</p>
+  <p>&copy; 2026 RENEGADE ANDROiD &middot; <a href="https://x.com/RenegadeAndroid" rel="noopener">@RenegadeAndroid</a></p>
+</footer>
+</body>
+</html>
