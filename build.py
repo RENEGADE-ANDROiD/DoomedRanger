@@ -1,5 +1,5 @@
 import html
-NEW={"tormentor","eelsbane","hellraiser","plasma-disruptor","thunderbolt","homing-launcher"}
+NEW={"hyperblaster"}
 W=[("1","Blaster","blaster","Unlimited glowing bolts. Your starting gun."),
 ("2","Boomer","boomer","Eight-pellet shotgun."),
 ("3","Machinegun","machine-gun","Quake 2-style hitscan."),
@@ -13,15 +13,15 @@ W=[("1","Blaster","blaster","Unlimited glowing bolts. Your starting gun."),
 ("7","Hyperblaster","hyperblaster","Three red energy bolts per shot."),
 ("7","Thunderbolt","thunderbolt","Lightning beam with muzzle flash and beam lights. Discharges if you fire it underwater."),
 ("8","Plasma Disruptor","plasma-disruptor","Rapid plasma. Kills vaporize."),
-("8","Eelsbane","eelsbane","Fast green acid plasma with a green muzzle flash that briefly corrodes. Uses Fuel; drops only from Champions Lite Toxic Mancubi."),
+("8","Eelsbane","eelsbane","Compact green plasma bolts with a downrange energy trail and a green muzzle flash; they briefly corrode. Uses Fuel; rare Arachnotron drop."),
 ("9","Railgun","railgun","Piercing 100-damage rail with a red muzzle flash."),
-("9","Tormentor","tormentor","Sprays falling acid droplets about Flamethrower range, with green barrel smoke, wall splashes, drips, and floor pools that briefly corrode. Uses Fuel; drops only from Champions Lite Toxic Mancubi."),
 ("9","Hellraiser","hellraiser","Fiery piercing rail with a red flash that ignites every target it hits. Uses Railgun ammo; rare Arch-vile drop."),
 ("0","BFG10K","bfg10k","Green energy orb, electrical arcs, blast ring, and BFG spray."),
 ("0","Chainsaw Gauntlet","chainsaw-gauntlet","Alternating chainsaw swings."),
-("0","QCon Flamethrower","flamethrower","Flame stream that leaves enemies burning. Uses Fuel.")]
-NEW={"tormentor","eelsbane","hellraiser","plasma-disruptor","thunderbolt","homing-launcher"}
-V="?v=20261006a"
+("0","QCon Flamethrower","flamethrower","Flame stream that leaves enemies burning. Uses Fuel."),
+("0","Tormentor","tormentor","Sprays falling acid droplets about Flamethrower range, with green barrel smoke, wall splashes, drips, and floor pools that briefly corrode. Uses Fuel; rare Mancubus drop.")]
+NEW={"hyperblaster"}
+V="?v=20261006b"
 def vid(f,label):
     q=V if f in NEW else ""
     return f'<video autoplay muted loop playsinline preload="none" poster="media/{f}.jpg{q}" aria-label="{html.escape(label)}"><source src="media/{f}.mp4{q}" type="video/mp4"></video>'
