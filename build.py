@@ -34,5 +34,15 @@ details="\n".join("<p>"+inline(p.strip())+"</p>" for p in paras)
 t=Path("index.template.html").read_text(encoding="utf-8").replace("{{WEAPONS}}",cards).replace("{{FUEL_AND_DROPS}}",details)
 t=t.replace("{{ORB_GAMEPLAY}}",vid("dire-orb-gameplay","Dire Orb gameplay"))
 t=t.replace("{{ORB_HANDS}}",vid("dire-orb","Dire Orb held left, centered and right"))
+
+release=json.loads(Path("release.json").read_text(encoding="utf-8"))
+released=release["published"] is True
+itch=html.escape(release["itch_url"],quote=True)
+hero='<a class="btn btn-download" href="#release">'+("Download" if released else "Coming Soon")+'</a>'
+cta=('<p><a class="btn btn-download" href="'+itch+'" rel="noopener">Download from itch.io</a></p>' if released else '<p><button class="btn btn-soon" disabled>Download from itch.io — Coming Soon</button></p>')
+t=t.replace("{{HERO_RELEASE_CTA}}",hero).replace("{{RELEASE_STATUS}}","Available on itch.io" if released else "Coming Soon").replace("{{ITCH_RELEASE_CTA}}",cta)
+
+if released:
+    t=t.replace("| Coming Soon", "| Download").replace("Coming soon on itch.io", "Available on itch.io").replace("Doomed Ranger will be released on itch.io.", "Doomed Ranger is available on itch.io.").replace("Once released, launch with", "Launch with")
 open("index.html","w",encoding="utf-8").write(t)
 print("ok",len(W))

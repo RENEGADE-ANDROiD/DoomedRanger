@@ -118,3 +118,6 @@ figcaption { padding: 8px 12px; color: var(--dim); font-size: 14px; background: 
 .more-layout .features-right { grid-template-columns: repeat(2, minmax(0,1fr)); margin-top:0; }
 @media (max-width:900px){ .more-layout { grid-template-columns:1fr; } .more-ranger { max-width:240px; } }
 @media (max-width:600px){ .more-layout .features-right { grid-template-columns:1fr; } }
+
+.btn-download { background: var(--rust); color: var(--fg); border-color: var(--orange); box-shadow: 5px 5px 0 #000; }
+.btn-download:hover { background: var(--orange); color: var(--bg); }
