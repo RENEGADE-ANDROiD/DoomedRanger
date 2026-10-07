@@ -1,0 +1,156 @@
+{
+  "blaster": {
+    "source": "Blaster - Left Centered Right.gif",
+    "source_sha256": "84ce3cec5ceecc776fea9ce01eb8d3387166fb076cfe1ff4be19e701c206a846",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 91935
+  },
+  "boomer": {
+    "source": "Boomer - Left Centered Right.gif",
+    "source_sha256": "d4609a7aebd307d44009a4f862237b3319ce4ca66f2406d66ac8763aea2cc44e",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 68493
+  },
+  "machine-gun": {
+    "source": "Machine Gun - Left Centered Right.gif",
+    "source_sha256": "020d943dd114eb925a593bf39a0f42f40403a23a7fa0860acee81d207c521ce4",
+    "source_frames": 54,
+    "duration_ms": 4330,
+    "video_bytes": 132284
+  },
+  "super-shotgun": {
+    "source": "Super Shotgun - Left Centered Right.gif",
+    "source_sha256": "9066d23cf0ee726f39c5f09ceb0292bfe6131b4c4cefc7d4801a54a29e9fb0b9",
+    "source_frames": 37,
+    "duration_ms": 4370,
+    "video_bytes": 123270
+  },
+  "chaingun": {
+    "source": "Chaingun - Left Centered Right.gif",
+    "source_sha256": "4c9219ea2337de9eae74945535f6931b2a49e60a9a5cbb3f31dfc431e88b138d",
+    "source_frames": 49,
+    "duration_ms": 4330,
+    "video_bytes": 74213
+  },
+  "nailgun": {
+    "source": "Nailgun - Left Centered Right.gif",
+    "source_sha256": "85e5bc1e593324407d5210e1155f71cebcd079a621ff6863e79c15c697124e49",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 69539
+  },
+  "grenade-launcher": {
+    "source": "Grenade Launcher - Left Centered Right.gif",
+    "source_sha256": "d6468c8aa0d21347a8b3190381a79b78008469195f031d21288930380dd01e73",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 81928
+  },
+  "qcon-rocket-launcher": {
+    "source": "QCon Rocket Launcher - Left Centered Right.gif",
+    "source_sha256": "6a2fb8ad66ddb251858b2cbaa18b00ebee5c4a4544426f2e9b12d6ad661d4213",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 136818
+  },
+  "homing-launcher": {
+    "source": "Homing Launcher - Left Centered Right.gif",
+    "source_sha256": "08c1c760531c176af5607c6715d9e75c3b5027e14337f1b19afc7b1f53efd3b2",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 149072
+  },
+  "tribolt": {
+    "source": "Tribolt - Left Centered Right.gif",
+    "source_sha256": "ee7981aa20fa7aca7b42da5d1f919c87fd216edee2f0654d25e22b9eab9a3d5b",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 97998
+  },
+  "hyperblaster": {
+    "source": "Hyperblaster - Left Centered Right.gif",
+    "source_sha256": "4ec3fef3181a1f9bffaff8dac4ca066df06c45ae8ca8888a7fb302c9a9a147eb",
+    "source_frames": 21,
+    "duration_ms": 1680,
+    "video_bytes": 67397
+  },
+  "thunderbolt": {
+    "source": "Thunderbolt - Left Centered Right.gif",
+    "source_sha256": "8cfcb7be6a75bb025a0184de3f46cf776225d0d56cae9261585a9d97c95679da",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 58445
+  },
+  "plasma-disruptor": {
+    "source": "Plasma Disruptor - Left Centered Right.gif",
+    "source_sha256": "b77f7627d53291dedb2fd33b79735fb2122a4223406532bb9cf9dc735270b33c",
+    "source_frames": 35,
+    "duration_ms": 2860,
+    "video_bytes": 106139
+  },
+  "eelsbane": {
+    "source": "Eelsbane - Left Centered Right.gif",
+    "source_sha256": "9e7bd1f53b0031c8ddbd0cfab1e3d171f3c16053931f988d598e8cf85d463d1b",
+    "source_frames": 33,
+    "duration_ms": 2860,
+    "video_bytes": 72738
+  },
+  "railgun": {
+    "source": "Railgun - Left Centered Right.gif",
+    "source_sha256": "cf1688f2a9b3c1accde9554768eb44769ac8a7587374b22e4ca6a5d75d007fb0",
+    "source_frames": 32,
+    "duration_ms": 4320,
+    "video_bytes": 97745
+  },
+  "hellraiser": {
+    "source": "Hellraiser - Left Centered Right.gif",
+    "source_sha256": "635c8f942a1d6cc3bee5ff4b76a4b0efd2b2c165ca42ba6e91b29850ab9aa536",
+    "source_frames": 29,
+    "duration_ms": 2860,
+    "video_bytes": 67049
+  },
+  "bfg10k": {
+    "source": "BFG10K - Left Centered Right.gif",
+    "source_sha256": "2ba76376603f9cc45bbfda3387d97775ef4913f01d56fa2187527b526a75ef36",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 137445
+  },
+  "chainsaw-gauntlet": {
+    "source": "Chainsaw Gauntlet - Left Centered Right.gif",
+    "source_sha256": "6f9e9b9dbbe96320d4b69964ba9862258ab957917d5cb07057647539b306a507",
+    "source_frames": 37,
+    "duration_ms": 4320,
+    "video_bytes": 104566
+  },
+  "flamethrower": {
+    "source": "Flamethrower - Left Centered Right.gif",
+    "source_sha256": "9c860c2577406d100fd4016c2b87d44bab6b438b22aae5654a2e48b805b5b978",
+    "source_frames": 35,
+    "duration_ms": 4320,
+    "video_bytes": 85332
+  },
+  "tormentor": {
+    "source": "Tormentor - Left Centered Right.gif",
+    "source_sha256": "f3d965cd5ab0291336cd7bebfd03df8360bfc53bc1547456ce3ee6a8d00e73ea",
+    "source_frames": 25,
+    "duration_ms": 2860,
+    "video_bytes": 49472
+  },
+  "dire-orb": {
+    "source": "Dire Orb - Left Centered Right.gif",
+    "source_sha256": "9bef050658b775e5d5db49b6372001ce60ddcc13a7f60412eda3fedb3234741c",
+    "source_frames": 16,
+    "duration_ms": 2390,
+    "video_bytes": 136583
+  },
+  "dire-orb-gameplay": {
+    "source": "DireOrb.gif",
+    "source_sha256": "3fb9c44d6c5e676c537dc63183fa341e11e759b4d6af7627c89739d3cce8f327",
+    "source_frames": 43,
+    "duration_ms": 4910,
+    "video_bytes": 468293
+  }
+}

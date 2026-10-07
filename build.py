@@ -1,8 +1,9 @@
-import html
-NEW={"hyperblaster"}
+import html, json, re
+from pathlib import Path
+MEDIA=json.loads(Path("media-manifest.json").read_text())
 W=[("1","Blaster","blaster","Unlimited glowing bolts. Your starting gun."),
 ("2","Boomer","boomer","Eight-pellet shotgun."),
-("3","Machinegun","machine-gun","Quake 2-style hitscan."),
+("3","Machine Gun","machine-gun","Quake 2-style hitscan."),
 ("4","Super Shotgun","super-shotgun","20-pellet double blast."),
 ("5","Chaingun","chaingun","Spins up, then shreds."),
 ("5","Nailgun","nailgun","10 nails a second. Kills can pin bodies to walls."),
@@ -19,13 +20,19 @@ W=[("1","Blaster","blaster","Unlimited glowing bolts. Your starting gun."),
 ("0","BFG10K","bfg10k","Green energy orb, electrical arcs, blast ring, and BFG spray."),
 ("0","Chainsaw Gauntlet","chainsaw-gauntlet","Alternating chainsaw swings."),
 ("0","QCon Flamethrower","flamethrower","Flame stream that leaves enemies burning. Uses Fuel."),
-("0","Tormentor","tormentor","Sprays falling acid droplets about Flamethrower range, with green barrel smoke, wall splashes, drips, and floor pools that briefly corrode. Uses Fuel; rare Mancubus drop.")]
-NEW={"hyperblaster"}
-V="?v=20261006b"
+("0","Tormentor","tormentor","Sprays falling acid droplets about Flamethrower range, with green barrel smoke, wall splashes, drips, and temporary floor pools. Briefly corrodes enemies. Uses Fuel; rare Mancubus drop.")]
+
 def vid(f,label):
-    q=V if f in NEW else ""
+    q="?v="+MEDIA[f]["source_sha256"][:12]
     return f'<video autoplay muted loop playsinline preload="none" poster="media/{f}.jpg{q}" aria-label="{html.escape(label)}"><source src="media/{f}.mp4{q}" type="video/mp4"></video>'
 cards="\n".join(f'''<figure class="weapon">{vid(f,n+" held left, centered and right")}<figcaption><h3>{n}<span class="slot">Slot {s}</span></h3><p>{d}</p></figcaption></figure>''' for s,n,f,d in W)
-t=open("index.template.html",encoding="utf-8").read().replace("{{WEAPONS}}",cards)
+readme=Path("mod-readme.md").read_text(encoding="utf-8")
+def inline(text):
+    return re.sub(chr(96)+r"([^"+chr(96)+r"]+)"+chr(96),r"<code>\1</code>",html.escape(text))
+paras=[p for p in readme.split("\n\n") if p.startswith(("Fuel is a separate", "Mancubi have a", "The three monster", "Tormentor sprays a"))]
+details="\n".join("<p>"+inline(p.strip())+"</p>" for p in paras)
+t=Path("index.template.html").read_text(encoding="utf-8").replace("{{WEAPONS}}",cards).replace("{{FUEL_AND_DROPS}}",details)
+t=t.replace("{{ORB_GAMEPLAY}}",vid("dire-orb-gameplay","Dire Orb gameplay"))
+t=t.replace("{{ORB_HANDS}}",vid("dire-orb","Dire Orb held left, centered and right"))
 open("index.html","w",encoding="utf-8").write(t)
 print("ok",len(W))

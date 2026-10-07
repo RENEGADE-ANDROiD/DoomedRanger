@@ -47,7 +47,10 @@
 <section class="section" id="arsenal">
   <h2><span class="pix"></span>Arsenal</h2>
   <p class="lead">Doom weapon spots roll from pools of Quake guns, so each run plays differently. Alt-fire on any gun gives a light zoom. Fuel is a separate ammo pool shared by the Flamethrower, Tormentor and Eelsbane. Three rare monster drops: Mancubi can drop Tormentor, Arachnotrons Eelsbane, and Arch-viles Hellraiser. Ordinary Doom II monsters and compatible replacements count, so no extra mod is needed.</p>
-  <p class="hint">Press <kbd>J</kbd> to hold your weapon right, centered or left, as in Quake 2. Each hand position has its own animations, and shots leave from that muzzle. The crosshair follows that hand's firing line. Every clip below shows all three.</p>
+  <p class="hint">Press <kbd>J</kbd> to hold your weapon right, centered or left, as in Quake 2. Each hand position has its own animations, and shots leave from that muzzle. The crosshair stays steady as you look around, with alignment for the selected weapon and hand. Every clip below shows all three.</p>
+  <details class="card"><summary>Fuel &amp; rare weapon drops</summary>
+{{FUEL_AND_DROPS}}
+  </details>
   <div class="weapons">
 {{WEAPONS}}
   </div>
@@ -61,8 +64,8 @@
       <p class="lead">If the orb hits a wall, it holds there for the rest of its 5 seconds. If there's no room to land, it stays live so you can try again, and if you never follow it, it detonates on its own. The cooldown is 30 seconds, and enemies can drop a Quake Champions hourglass that cuts 5 seconds off it.</p>
     </div>
     <div>
-      <figure class="media gameplay"><video autoplay muted loop playsinline preload="none" poster="media/dire-orb-gameplay.jpg" aria-label="Dire Orb gameplay"><source src="media/dire-orb-gameplay.mp4" type="video/mp4"></video></figure>
-      <figure class="media"><video autoplay muted loop playsinline preload="none" poster="media/dire-orb.jpg" aria-label="Dire Orb held left, centered and right"><source src="media/dire-orb.mp4" type="video/mp4"></video></figure>
+      <figure class="media gameplay">{{ORB_GAMEPLAY}}</figure>
+      <figure class="media">{{ORB_HANDS}}</figure>
     </div>
   </div>
 </section>
@@ -98,7 +101,10 @@
   <h2><span class="pix"></span>Release</h2>
   <div class="card">
     <p class="status">Coming Soon</p>
-    <p>Doomed Ranger will be released on itch.io. You'll need <a href="https://github.com/UZDoom/UZDoom" rel="noopener">UZDoom</a> (the mod targets ZScript 4.14.0) with OpenGL or Vulkan, and a Doom IWAD. Doom II is recommended so the Super Shotgun spawns.</p>
+    <p>Doomed Ranger will be released on itch.io. You'll need <a href="https://github.com/UZDoom/UZDoom/releases" rel="noopener">UZDoom</a> (the mod targets ZScript 4.14.0) with OpenGL or Vulkan, and a Doom IWAD. Doom II is recommended so the Super Shotgun spawns.</p>
+    <p>Rebind keys under <em>Customize Controls → Doomed Ranger</em>. Choose <strong>HUD Position: Top / Bottom</strong> under <em>Options → Doomed Ranger</em>.</p>
+    <p>Once released, launch with <code>uzdoom -iwad doom2.wad -file DoomedRanger.pk3</code>.</p>
+    <p><a href="https://github.com/RENEGADE-ANDROiD/DoomedRanger/blob/main/mod-readme.md">Full mod README</a></p>
   </div>
 </section>
 
@@ -125,7 +131,7 @@
     <li><strong>Raven Software / id Software / Bethesda</strong>: Quake 4 flame and acid artwork, flamethrower audio, and napalm canister model, textures, and Fuel HUD icon.</li>
     <li><strong>References</strong>: R1Q2 (Quake 2 physics), Xonotic (CPM air control), Brutal Quake Arena (kick distances).</li>
   </ul>
-  <p class="hint">You can play a public release as provided. Reusing this original work requires the modder's explicit permission, and third-party material keeps its own terms.</p>
+  <p class="hint">You can play a public release as provided. Reusing this original work requires explicit permission from RENEGADE ANDROiD, and third-party material keeps its own terms.</p>
 </section>
 </main>
 <footer class="footer">
