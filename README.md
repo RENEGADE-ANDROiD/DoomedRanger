@@ -12,4 +12,4 @@ The media manifest records the source GIF hashes; unchanged clips are reused.
 
 ## itch.io release routing
 
-The download is hosted at https://renegade-android.itch.io/doomed-ranger. The itch.io project is currently a private draft. Keep release.json with published: false until Shawn publishes that page. This keeps the public CTA marked Coming Soon. After publishing itch.io, set published to true, run python build.py, and publish the website changes. The top CTA scrolls to the Release section; its download CTA opens itch.io. No mod package is hosted in this website repository.
+The download is hosted at https://renegade-android.itch.io/doomed-ranger. The itch.io project is currently a private draft. Keep release.json with published: false until RENEGADE ANDROiD publishes that page. This keeps the public CTA marked Coming Soon. After publishing itch.io, set published to true, run python build.py, and publish the website changes. The top CTA scrolls to the Release section; its download CTA opens itch.io. No mod package is hosted in this website repository.

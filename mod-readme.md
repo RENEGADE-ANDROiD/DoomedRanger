@@ -87,7 +87,7 @@ You can rebind the keys under *Customize Controls → Doomed Ranger*. The HUD ca
 
 ## Credits
 
-Created by **RENEGADE ANDROiD (Shawn)**. Third-party material belongs to its owners. Details are in `credits/`.
+Created by **RENEGADE ANDROiD**. Third-party material belongs to its owners. Details are in `credits/`.
 
 - **id Software / Bethesda**: Quake Champions weapons, hourglass, and HUD art; the Quake Live Ranger voice and effects; Doom 3 BFG artwork; Quake II sounds; Quake nailgun behavior.
 - **Raven Software / id Software / Bethesda**: Quake 4 flame and acid artwork, flamethrower audio, and napalm canister model, textures, and Fuel HUD icon.
