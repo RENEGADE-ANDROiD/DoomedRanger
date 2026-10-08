@@ -4,7 +4,7 @@ The Ranger from the Quake series drops into Doom with 20 Quake Champions weapons
 
 The weapons use actual Quake Champions Blender source files and textures, reanimated in Blender with ambient weapon movements inspired by Quake 2.
 
-> **Release: Coming Soon** on itch.io.
+> **Download:** https://renegade-android.itch.io/doomed-ranger
 >
 > Website: https://renegade-android.github.io/DoomedRanger/
 

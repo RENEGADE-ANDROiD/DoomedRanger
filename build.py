@@ -43,6 +43,6 @@ cta=('<p><a class="btn btn-download" href="'+itch+'" rel="noopener">Download fro
 t=t.replace("{{HERO_RELEASE_CTA}}",hero).replace("{{RELEASE_STATUS}}","Available on itch.io" if released else "Coming Soon").replace("{{ITCH_RELEASE_CTA}}",cta)
 
 if released:
-    t=t.replace("| Coming Soon", "| Download").replace("Coming soon on itch.io", "Available on itch.io").replace("Doomed Ranger will be released on itch.io.", "Doomed Ranger is available on itch.io.").replace("Once released, launch with", "Launch with")
+    t=t.replace("| Coming Soon", "| Download").replace("Coming soon.", "Available on itch.io.").replace("Coming soon on itch.io", "Available on itch.io").replace("Doomed Ranger will be released on itch.io.", "Doomed Ranger is available on itch.io.").replace("Once released, launch with", "Launch with")
 open("index.html","w",encoding="utf-8").write(t)
 print("ok",len(W))
