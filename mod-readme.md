@@ -93,8 +93,8 @@ Created by **RENEGADE ANDROiD**. Third-party material belongs to its owners. Det
 - **Raven Software / id Software / Bethesda**: Quake 4 flame and acid artwork, flamethrower audio, and napalm canister model, textures, and Fuel HUD icon.
 - **References**: R1Q2 (Quake 2 physics), Xonotic (CPM air control), Brutal Quake Arena (kick distances).
 
-## Permissions
+## Usage
 
-You can play a public release as provided. Reusing this original work requires the modder's explicit permission, and third-party material keeps its own terms. See [PERMISSIONS.md](PERMISSIONS.md).
+You can play a public release as provided. Reusing this original work requires express authorization from RENEGADE ANDROiD, and third-party material keeps its own terms.
 
 The Fuel pickup uses the original Quake 4 napalm canister model and textures. Tormentor, Eelsbane, and Hellraiser use their original Quake Champions Blender meshes, textures, UVs, and surface normals. Their acid, ignition, and loot code is authored for Doomed Ranger.
