@@ -78,6 +78,8 @@ You can rebind the keys under *Customize Controls → Doomed Ranger*. The HUD ca
 
 ## Recommended Addon Mods
 
+Works with any Doom 1 + 2 monster pack addon.
+
 - [DDS Textures & Super Shaders Suite](https://www.moddb.com/mods/dds-texturespbr-plus)
 
 ## Engine & Launcher
