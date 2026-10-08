@@ -37,7 +37,7 @@ Doom weapon spots roll from pools of Quake guns, so each run plays differently. 
 
 Fuel is a separate ammo pool shared by the Flamethrower, Tormentor, and Eelsbane: 300 maximum, or 600 with a backpack. Quake 4 napalm canisters give 60 Fuel; large tanks give 120. One in four Cell/Cell Pack map spots supplies Fuel, while the rest retain Cells. Mappers can place Fuel using editor numbers 27016 and 27017.
 
-Mancubi have a 15% chance to drop Tormentor. Arachnotrons have a 15% chance to drop Eelsbane. Arch-viles have a 20% chance to drop Hellraiser. Ordinary Doom II monsters and compatible replacement subclasses can supply these weapons; Champions Lite is not required. Friendly monsters never roll these drops, and resurrection cannot repeat a drop roll. Server settings `dr_tormentor_drop_chance`, `dr_eelsbane_drop_chance`, and `dr_hellraiser_drop_chance` adjust the chances.
+Mancubi have a 15% chance to drop Tormentor. Arachnotrons have a 15% chance to drop Eelsbane. Arch-viles have a 20% chance to drop Hellraiser. Ordinary Doom II monsters and compatible replacement subclasses can supply these weapons. Friendly monsters never roll these drops, and resurrection cannot repeat a drop roll. Server settings `dr_tormentor_drop_chance`, `dr_eelsbane_drop_chance`, and `dr_hellraiser_drop_chance` adjust the chances.
 
 The three monster weapons do not appear in normal map weapon pools. Pick up the dropped weapon to unlock it, then use its slot key to cycle to it.
 
@@ -45,7 +45,7 @@ Tormentor sprays a visible stream of falling acid droplets with approximately th
 
 ## Dire Orb
 
-Press **F** to throw a fast orb that passes through enemies, then press **F** again to teleport to it with your momentum kept. Anything standing where you land gets telefragged into gibs. If the orb hits a wall, it holds there for the rest of its 5 seconds. If there's no room to land, the orb stays live so you can try again, and if you never follow it, it detonates on its own. The cooldown is 30 seconds, and enemies can drop a Quake Champions hourglass that cuts 5 seconds off it.
+Press **F** to throw the orb, then **F** again to teleport and telefrag enemies at your destination. The orb lasts 5 seconds, with a 30-second cooldown. Rare hourglass pickups shorten the cooldown.
 
 ## Movement
 
